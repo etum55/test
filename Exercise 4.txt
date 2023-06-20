@@ -1,0 +1,9 @@
+print("--- Your Score ---")
+eng = 20.0
+bus = 50.5
+intro = 35.50
+comPro = 75
+print("Foundation English : ",eng)
+print("General Business : ",bus)
+print("Introduction to Computer System : ",intro)
+print("Computer Programming : ",comPro)
