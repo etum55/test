@@ -11,6 +11,7 @@ while userName != "Palm" or passWord != "2012":
             print("PASSWORD was wrong try again")
     else :
             print("SUCCESS")
+        
 print("--- WELCOME ITEM SHOP DOTA2 ---")
 print("WHAT DO YOU WANT ITEM?")
 print("1.Sentry Ward : 50 Gold")
@@ -26,26 +27,31 @@ while userSelect != range(5):
         price = 50
         result = x * price
         print("Total :",result,"Gold")
+        break
     elif userSelect == 2:
         x = int(input("How many :"))
         price = 65
         result = x * price
         print("Total :",result,"Gold")
+        break
     elif userSelect == 3:
         x = int(input("How many :"))
         price = 675
         result = x * price
         print("Total :",result,"Gold")
+        break
     elif userSelect == 4:
         x = int(input("How many :"))
         price = 1400
         result = x * price
         print("Total :",result,"Gold")
+        break
     elif userSelect == 5:
         x = int(input("How many :"))
         price = 2250
         result = x * price
         print("Total :",result,"Gold")
+        break
     else :
         print("Try again !!!")
 print("--- THANK YOU ---")
